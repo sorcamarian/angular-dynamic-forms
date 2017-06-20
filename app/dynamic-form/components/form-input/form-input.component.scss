@@ -12,3 +12,33 @@ input {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   }
 }
+
+
+.form-input{
+
+  // Valid value
+  // Valid value
+  // Valid value
+  .error-message{
+    display : none;
+  }
+
+
+
+  // Invalid value
+  // Invalid value
+  // Invalid value
+  &.input-text-container-has-validation-error {
+
+      // inside <label>
+      .active-error-message{
+          display : block;
+      }
+
+      input{
+          border  : 2px solid red;
+      }
+  }
+
+
+} // .form-input

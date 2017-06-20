@@ -55,7 +55,7 @@ export class AppComponent implements AfterViewInit {
     });
 
     this.form.setDisabled('submit', true);
-    this.form.setValue('name', 'Todd Motto');
+    this.form.setValue('name', 'Hmm');
   }
 
   submit(value: {[name: string]: any}) {
