@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "prestart": "webpack --config vendor/webpack.config.js",
-    "start": "NODE_ENV=development yarn run webpack",
+    "start": "yarn run webpack",
     "webpack": "webpack-dev-server --inline --hot"
   },
   "devDependencies": {
